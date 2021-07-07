@@ -1,0 +1,61 @@
+/* CSS Syntax */
+/*
+selector{
+    prop1: value;
+    prop2: value;
+}
+*/
+
+/* CSS Selectors -> (ID Class Element)
+Order of Priority: (Also applies to selector combinations)
+!important
+Inline styles
+ID Selectors
+Class selectors
+Element
+*/
+
+
+/* ID 
+#id : The id of an element is unique within a page, so the id selector is used to select one unique element!
+#id{
+    property: value;
+}
+*/
+
+
+/* Class 
+.class-name{
+    property: value;
+}
+*/
+
+
+/* Element
+-> h1, p, div, header, footer, span, strong, a, btn ...etc.
+h1{
+    color: blue;
+}
+*/
+
+
+/* * Select every element on the entire web page
+*{
+    font-family: Arial;
+}
+*/
+
+/* CSS Selector Combinations
+
+.selector-1.selector-2{
+    property: value;
+}
+eg.
+h1.class-name{
+    font-size: 200%;
+}
+
+.ancestor .child{
+    property: value;
+}
+*/

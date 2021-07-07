@@ -1,0 +1,65 @@
+/* Just testing! don't load here your style */
+
+* {
+    background: rgb(46, 83, 111);
+    color: lightblue;
+}
+
+div.right {
+    color: tomato;
+    position: absolute;
+    right: 0px;
+    width: 200px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    text-align: center;
+}
+
+#unique {
+    /* Not very useful */
+    background: lightgreen;
+    color: black;
+}
+
+ul li.selected {
+    background: cadetblue;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* pseudo-class */
+
+li:hover {
+    background: burlywood;
+    color: brown;
+}
+
+input:focus {
+    background: lightgreen;
+}
+
+div p {
+    display: none;
+    background-color: #eaf5a1;
+    color: brown;
+    padding: 20px;
+}
+
+div:hover p {
+    /* A pseudo-class is used to define a special state of an element */
+    display: block;
+}
+
+/* :: A CSS pseudo-element is used to style specified parts of an element. */
+
+article p::first-line {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+}
+
+article p::first-letter {
+    color: brown;
+    font-size: xx-large;
+}
