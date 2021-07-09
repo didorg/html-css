@@ -11,7 +11,7 @@ body {
 }
 
 body {
-	background: linear-gradient(45deg, #e0e0cb, #735dd0);
+	background: linear-gradient(45deg, #0058be, #00c59c);
 	font-family: sans-serif;
 	font-weight: 100;
 }
@@ -33,8 +33,8 @@ table {
 }
 
 table thead{
-    background-color: #55608f;
-    border-bottom: 1px dashed rgb(253, 248, 248);
+    background-color: #14a185;
+    border-bottom: 0.1px dashed rgb(253, 248, 248);
 }
 
 table thead tr th{
