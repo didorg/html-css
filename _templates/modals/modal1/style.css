@@ -22,7 +22,7 @@ body {
   margin: 3% 3%;
   border-radius: 5px;
   position: relative;
-  display: true;
+  /* display: none; */
 }
 
 .modal .badge {
@@ -42,7 +42,7 @@ body {
 }
 
 .modal .btns {
-  transform: translate(0, 450%);
+  transform: translate(0, 430%);
 }
 
 button {
